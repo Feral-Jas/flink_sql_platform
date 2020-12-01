@@ -29,3 +29,8 @@ npm run lint
 启动 express 后端：server 里的 index.js 推荐使用 nodemon index.js
 
 package flink 任务，将 jar 包放在根目录下的 flink_jobs 文件夹内（没有自己创建）
+
+## 2020.12.1
+
+sql 执行的 job，表以配置方式实现
+kafka -> flink -> dm 实现

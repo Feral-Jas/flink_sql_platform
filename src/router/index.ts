@@ -1,9 +1,7 @@
 import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
 import Flink from '../views/Flink.vue';
-import Home from '../views/Home.vue';
-import Flowchart from '../views/Flowchart.vue';
-import FlowchartNew from '../views/FlowchartNew.vue';
+import FlinkSql from '../views/FlinkSql.vue';
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
@@ -11,6 +9,11 @@ const routes: Array<RouteConfig> = [
         path: '/flink',
         name: 'flink',
         component: Flink,
+    },
+    {
+        path: '/flinksql',
+        name: 'flinksql',
+        component: FlinkSql,
     },
 ];
 
